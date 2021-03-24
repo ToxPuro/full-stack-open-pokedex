@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron: '*/1 * * * *'
-
+  #schedule:
+  # - cron: '*/1 * * * *'
+  # Scheluding worked but I comment it out in order not to use all dyno time
 jobs:
   healt_check_job:
     runs-on: ubuntu-18.04
