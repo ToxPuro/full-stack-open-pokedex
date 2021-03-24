@@ -9,7 +9,7 @@ on:
 
 jobs:
   healt_check_job:
-    runs on: ubuntu-18.04
+    runs-on: ubuntu-18.04
     steps:
       - name: Health Check
         uses: jtalk/url-health-check-action@v1.5
